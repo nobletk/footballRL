@@ -1,0 +1,132 @@
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+[INFO] Connected to Unity environment with package version 2.0.2 and communication version 1.5.0
+[INFO] Connected new brain: FootballBrain?team=1
+[INFO] Connected new brain: FootballBrain?team=0
+[INFO] Hyperparameters for behavior name FootballBrain: 
+	trainer_type:	ppo
+	hyperparameters:	
+	 batch_size:	1024
+	 buffer_size:	10240
+	 learning_rate:	0.0003
+	 beta:	0.005
+	 epsilon:	0.2
+	 lambd:	0.95
+	 num_epoch:	3
+	 learning_rate_schedule:	linear
+	 beta_schedule:	linear
+	 epsilon_schedule:	linear
+	network_settings:	
+	 normalize:	False
+	 hidden_units:	256
+	 num_layers:	2
+	 vis_encode_type:	simple
+	 memory:	None
+	 goal_conditioning_type:	hyper
+	 deterministic:	False
+	reward_signals:	
+	 extrinsic:	
+	   gamma:	0.99
+	   strength:	1.0
+	   network_settings:	
+	     normalize:	False
+	     hidden_units:	128
+	     num_layers:	2
+	     vis_encode_type:	simple
+	     memory:	None
+	     goal_conditioning_type:	hyper
+	     deterministic:	False
+	init_path:	None
+	keep_checkpoints:	5
+	checkpoint_interval:	500000
+	max_steps:	10000000
+	time_horizon:	64
+	summary_freq:	10000
+	threaded:	True
+	self_play:	
+	 save_steps:	20000
+	 team_change:	100000
+	 swap_steps:	10000
+	 window:	10
+	 play_against_latest_model_ratio:	0.5
+	 initial_elo:	1200.0
+	behavioral_cloning:	None
+[INFO] FootballBrain. Step: 10000. Time Elapsed: 17.187 s. Mean Reward: 0.359. Std of Reward: 0.111. Training.
+[INFO] FootballBrain. Step: 20000. Time Elapsed: 98.239 s. Mean Reward: 0.270. Std of Reward: 0.104. Training.
+[INFO] FootballBrain. Step: 30000. Time Elapsed: 108.775 s. Mean Reward: 0.437. Std of Reward: 0.181. Training.
+[INFO] FootballBrain. Step: 40000. Time Elapsed: 118.544 s. Mean Reward: 0.749. Std of Reward: 0.236. Training.
+[INFO] FootballBrain. Step: 50000. Time Elapsed: 129.270 s. Mean Reward: 0.943. Std of Reward: 0.136. Training.
+[INFO] FootballBrain. Step: 60000. Time Elapsed: 168.877 s. Mean Reward: 0.993. Std of Reward: 0.024. Training.
+[INFO] FootballBrain. Step: 70000. Time Elapsed: 179.443 s. Mean Reward: 0.915. Std of Reward: 0.108. Training.
+[INFO] FootballBrain. Step: 80000. Time Elapsed: 189.330 s. Mean Reward: 0.806. Std of Reward: 0.183. Training.
+[INFO] FootballBrain. Step: 90000. Time Elapsed: 234.588 s. Mean Reward: 0.659. Std of Reward: 0.135. Training.
+[INFO] FootballBrain. Step: 100000. Time Elapsed: 244.682 s. Mean Reward: 0.795. Std of Reward: 0.164. Training. ELO: 1200.500.
+[INFO] FootballBrain. Step: 110000. Time Elapsed: 280.886 s. Mean Reward: 0.832. Std of Reward: 0.096. Training.
+[INFO] FootballBrain. Step: 120000. Time Elapsed: 290.823 s. Mean Reward: 0.988. Std of Reward: 0.025. Training. ELO: 1200.999.
+[INFO] FootballBrain. Step: 130000. Time Elapsed: 301.532 s. Mean Reward: 0.958. Std of Reward: 0.192. Training.
+[INFO] FootballBrain. Step: 140000. Time Elapsed: 311.390 s. Mean Reward: 0.739. Std of Reward: 0.546. Training. ELO: 1200.999.
+[INFO] FootballBrain. Step: 150000. Time Elapsed: 467.665 s. Mean Reward: 0.692. Std of Reward: 0.399. Training. ELO: 1200.999.
+[INFO] FootballBrain. Step: 160000. Time Elapsed: 536.823 s. Mean Reward: 0.585. Std of Reward: 0.506. Training. ELO: 1200.999.
+[INFO] FootballBrain. Step: 170000. Time Elapsed: 618.049 s. Mean Reward: 0.713. Std of Reward: 0.420. Training. ELO: 1200.999.
+[INFO] FootballBrain. Step: 180000. Time Elapsed: 628.488 s. Mean Reward: 0.830. Std of Reward: 0.525. Training. ELO: 1200.999.
+[INFO] FootballBrain. Step: 190000. Time Elapsed: 727.244 s. Mean Reward: 0.767. Std of Reward: 0.476. Training. ELO: 1200.999.
+[INFO] FootballBrain. Step: 200000. Time Elapsed: 1032.569 s. Mean Reward: 0.732. Std of Reward: 0.546. Training. ELO: 1200.001.
+[INFO] FootballBrain. Step: 210000. Time Elapsed: 1132.832 s. Mean Reward: 0.809. Std of Reward: 0.464. Training. ELO: 1199.007.
+[INFO] FootballBrain. Step: 220000. Time Elapsed: 1143.284 s. Mean Reward: 0.898. Std of Reward: 0.405. Training. ELO: 1199.412.
+[INFO] FootballBrain. Step: 230000. Time Elapsed: 1361.345 s. Mean Reward: 1.079. Std of Reward: 0.409. Training. ELO: 1201.114.
+[INFO] FootballBrain. Step: 240000. Time Elapsed: 1662.717 s. Mean Reward: 0.952. Std of Reward: 0.519. Training. ELO: 1201.514.
+[INFO] FootballBrain. Step: 250000. Time Elapsed: 1962.085 s. Mean Reward: 1.128. Std of Reward: 0.420. Training. ELO: 1202.007.
+[INFO] FootballBrain. Step: 260000. Time Elapsed: 2134.348 s. Mean Reward: 0.969. Std of Reward: 0.583. Training. ELO: 1202.494.
+[INFO] FootballBrain. Step: 270000. Time Elapsed: 2144.635 s. Mean Reward: 1.036. Std of Reward: 0.638. Training. ELO: 1202.494.
+[INFO] FootballBrain. Step: 280000. Time Elapsed: 2155.092 s. Mean Reward: 1.085. Std of Reward: 0.613. Training. ELO: 1202.494.
+[INFO] FootballBrain. Step: 290000. Time Elapsed: 2451.601 s. Mean Reward: 1.239. Std of Reward: 0.384. Training. ELO: 1202.619.
+[INFO] FootballBrain. Step: 300000. Time Elapsed: 2751.967 s. Mean Reward: 1.156. Std of Reward: 0.342. Training. ELO: 1203.238.
+[INFO] FootballBrain. Step: 310000. Time Elapsed: 3057.322 s. Mean Reward: 0.978. Std of Reward: 0.768. Training. ELO: 1202.985.
+[INFO] FootballBrain. Step: 320000. Time Elapsed: 3362.676 s. Mean Reward: 1.135. Std of Reward: 0.470. Training. ELO: 1203.318.
+[INFO] FootballBrain. Step: 330000. Time Elapsed: 3658.036 s. Mean Reward: 1.249. Std of Reward: 0.462. Training. ELO: 1204.337.
+[INFO] FootballBrain. Step: 340000. Time Elapsed: 3960.451 s. Mean Reward: 1.362. Std of Reward: 0.617. Training. ELO: 1206.089.
+[INFO] FootballBrain. Step: 350000. Time Elapsed: 4132.796 s. Mean Reward: 1.257. Std of Reward: 0.600. Training. ELO: 1206.568.
+[INFO] FootballBrain. Step: 360000. Time Elapsed: 4344.988 s. Mean Reward: 1.221. Std of Reward: 0.910. Training. ELO: 1205.977.
+[INFO] FootballBrain. Step: 370000. Time Elapsed: 4513.239 s. Mean Reward: 1.142. Std of Reward: 1.002. Training. ELO: 1206.679.
+[INFO] FootballBrain. Step: 380000. Time Elapsed: 4523.550 s. Mean Reward: 1.255. Std of Reward: 0.942. Training. ELO: 1206.679.
+[INFO] FootballBrain. Step: 390000. Time Elapsed: 4822.945 s. Mean Reward: 1.348. Std of Reward: 0.812. Training. ELO: 1205.603.
+[INFO] FootballBrain. Step: 400000. Time Elapsed: 5122.357 s. Mean Reward: 1.222. Std of Reward: 0.939. Training. ELO: 1206.154.
+[INFO] FootballBrain. Step: 410000. Time Elapsed: 5431.773 s. Mean Reward: 1.153. Std of Reward: 1.174. Training. ELO: 1206.217.
+[INFO] FootballBrain. Step: 420000. Time Elapsed: 5731.170 s. Mean Reward: 1.324. Std of Reward: 0.800. Training. ELO: 1206.630.
+[INFO] FootballBrain. Step: 430000. Time Elapsed: 6030.557 s. Mean Reward: 1.244. Std of Reward: 1.262. Training. ELO: 1207.292.
+[INFO] FootballBrain. Step: 440000. Time Elapsed: 6331.955 s. Mean Reward: 1.518. Std of Reward: 0.762. Training. ELO: 1207.287.
+[INFO] FootballBrain. Step: 450000. Time Elapsed: 6636.330 s. Mean Reward: 1.314. Std of Reward: 1.017. Training. ELO: 1209.232.
+[INFO] FootballBrain. Step: 460000. Time Elapsed: 6934.724 s. Mean Reward: 1.563. Std of Reward: 0.769. Training. ELO: 1212.318.
+[INFO] FootballBrain. Step: 470000. Time Elapsed: 7238.141 s. Mean Reward: 1.602. Std of Reward: 0.857. Training. ELO: 1213.377.
+[INFO] FootballBrain. Step: 480000. Time Elapsed: 7538.504 s. Mean Reward: 1.439. Std of Reward: 1.014. Training. ELO: 1213.656.
+[INFO] FootballBrain. Step: 490000. Time Elapsed: 7833.882 s. Mean Reward: 1.364. Std of Reward: 1.206. Training. ELO: 1213.453.
+[INFO] FootballBrain. Step: 500000. Time Elapsed: 8135.295 s. Mean Reward: 1.283. Std of Reward: 1.227. Training. ELO: 1213.476.
+[INFO] Exported results/Run_04/FootballBrain/FootballBrain-499989.onnx
+[INFO] FootballBrain. Step: 510000. Time Elapsed: 8441.680 s. Mean Reward: 1.188. Std of Reward: 1.328. Training. ELO: 1212.370.
+[INFO] FootballBrain. Step: 520000. Time Elapsed: 8747.073 s. Mean Reward: 1.363. Std of Reward: 1.214. Training. ELO: 1211.753.
+[INFO] FootballBrain. Step: 530000. Time Elapsed: 9050.506 s. Mean Reward: 1.742. Std of Reward: 0.898. Training. ELO: 1212.814.
+[INFO] FootballBrain. Step: 540000. Time Elapsed: 9361.875 s. Mean Reward: 1.580. Std of Reward: 1.029. Training. ELO: 1213.645.
+[INFO] FootballBrain. Step: 550000. Time Elapsed: 9669.260 s. Mean Reward: 1.410. Std of Reward: 1.065. Training. ELO: 1215.113.
+[INFO] FootballBrain. Step: 560000. Time Elapsed: 9944.613 s. Mean Reward: 1.112. Std of Reward: 1.285. Training. ELO: 1213.294.
+[INFO] FootballBrain. Step: 570000. Time Elapsed: 10247.015 s. Mean Reward: 0.968. Std of Reward: 1.223. Training. ELO: 1210.984.
+[INFO] FootballBrain. Step: 580000. Time Elapsed: 10547.389 s. Mean Reward: 1.234. Std of Reward: 1.169. Training. ELO: 1210.947.
+[INFO] FootballBrain. Step: 590000. Time Elapsed: 10845.798 s. Mean Reward: 1.459. Std of Reward: 1.116. Training. ELO: 1211.840.
+[INFO] FootballBrain. Step: 600000. Time Elapsed: 11144.200 s. Mean Reward: 1.326. Std of Reward: 1.165. Training. ELO: 1214.078.
+[INFO] FootballBrain. Step: 610000. Time Elapsed: 11458.599 s. Mean Reward: 1.383. Std of Reward: 1.106. Training. ELO: 1215.341.
+[INFO] FootballBrain. Step: 620000. Time Elapsed: 11753.323 s. Mean Reward: 1.227. Std of Reward: 1.302. Training. ELO: 1215.223.
+[INFO] FootballBrain. Step: 630000. Time Elapsed: 12055.379 s. Mean Reward: 1.228. Std of Reward: 1.227. Training. ELO: 1213.118.
+[INFO] FootballBrain. Step: 640000. Time Elapsed: 12355.759 s. Mean Reward: 1.183. Std of Reward: 1.319. Training. ELO: 1210.840.
+[INFO] FootballBrain. Step: 650000. Time Elapsed: 12655.136 s. Mean Reward: 1.251. Std of Reward: 1.320. Training. ELO: 1210.824.
+3[INFO] FootballBrain. Step: 660000. Time Elapsed: 12772.390 s. Mean Reward: 1.026. Std of Reward: 1.111. Training. ELO: 1208.197.
+[INFO] FootballBrain. Step: 670000. Time Elapsed: 12782.730 s. Mean Reward: 1.014. Std of Reward: 1.219. Training. ELO: 1208.495.
+[INFO] FootballBrain. Step: 680000. Time Elapsed: 12839.843 s. Mean Reward: 1.529. Std of Reward: 1.064. Training. ELO: 1206.556.
+[INFO] FootballBrain. Step: 690000. Time Elapsed: 13144.242 s. Mean Reward: 1.569. Std of Reward: 1.136. Training. ELO: 1206.616.
+[INFO] FootballBrain. Step: 700000. Time Elapsed: 13442.632 s. Mean Reward: 1.341. Std of Reward: 1.223. Training. ELO: 1206.596.
+[INFO] FootballBrain. Step: 710000. Time Elapsed: 13752.034 s. Mean Reward: 1.143. Std of Reward: 1.324. Training. ELO: 1204.518.
+[INFO] FootballBrain. Step: 720000. Time Elapsed: 14052.428 s. Mean Reward: 1.500. Std of Reward: 1.181. Training. ELO: 1204.518.
+[INFO] FootballBrain. Step: 730000. Time Elapsed: 14352.816 s. Mean Reward: 1.460. Std of Reward: 1.265. Training. ELO: 1204.518.
+[INFO] FootballBrain. Step: 740000. Time Elapsed: 14654.211 s. Mean Reward: 1.359. Std of Reward: 1.279. Training. ELO: 1202.810.
+[INFO] FootballBrain. Step: 750000. Time Elapsed: 14956.626 s. Mean Reward: 1.312. Std of Reward: 1.245. Training. ELO: 1202.470.
+[INFO] FootballBrain. Step: 760000. Time Elapsed: 15253.997 s. Mean Reward: 1.480. Std of Reward: 1.065. Training. ELO: 1202.305.
+[INFO] FootballBrain. Step: 770000. Time Elapsed: 15551.437 s. Mean Reward: 1.464. Std of Reward: 1.272. Training. ELO: 1202.747.
+[INFO] FootballBrain. Step: 780000. Time Elapsed: 15707.215 s. Mean Reward: 1.287. Std of Reward: 1.259. Training. ELO: 1203.037.
+[WARNING] Restarting worker[0] after 'Communicator has exited.'
